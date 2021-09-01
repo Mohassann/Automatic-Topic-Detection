@@ -1,0 +1,9 @@
+Golden-labels in: dataset/Tweet_LABEL.txt
+
+Results for: C:\Users\Asus\Desktop\STTM-master\results\Tweet-GPU-PDMM.theta
+	Purity: 0.8659870550161812
+	NMI: 0.8224704657400168
+
+---
+Mean purity: 0.8659870550161812, standard deviation: 0.0
+Mean NMI: 0.8224704657400168, standard deviation: 0.0

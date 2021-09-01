@@ -1,0 +1,9 @@
+Golden-labels in: dataset/Tweet_LABEL.txt
+
+Results for: C:\Users\Asus\Desktop\STTM-master\results\Tweet-LF-DMM.theta
+	Purity: 0.8592233009708737
+	NMI: 0.8450668748971705
+
+---
+Mean purity: 0.8592233009708737, standard deviation: 0.0
+Mean NMI: 0.8450668748971705, standard deviation: 0.0

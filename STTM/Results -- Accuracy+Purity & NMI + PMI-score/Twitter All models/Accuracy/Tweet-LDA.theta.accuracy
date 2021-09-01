@@ -1,0 +1,7 @@
+Golden-labels in: dataset/Tweet_LABEL.txt
+
+Results for: C:\Users\Asus\Desktop\STTM-master\results\Tweet-LDA.theta
+	Accuracy: 83.85922330097087
+
+---
+Mean accuracy: 83.85922330097087, standard deviation: 0.0
