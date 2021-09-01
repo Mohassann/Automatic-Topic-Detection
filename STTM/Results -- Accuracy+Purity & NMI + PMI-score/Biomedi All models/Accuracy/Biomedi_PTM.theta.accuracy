@@ -1,0 +1,14 @@
+Golden-labels in: dataset/Biomedical_label.txt
+
+Results for: E:\Master Courses\2nd year\Master Thesis\Code\STTM-master\results\Biomedi_PTM.theta
+	Accuracy: 45.5316742081448
+
+---
+Mean accuracy: 45.5316742081448, standard deviation: 0.0
+
+time: 11166 ms
+correct: 8855
+Cross Validation Accuracy = 45.5317%
+---
+Mean accuracy: 45.5316742081448, standard deviation: 0.0
+end!!!!!!!

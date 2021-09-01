@@ -1,0 +1,9 @@
+Golden-labels in: dataset/Biomedical_label.txt
+
+Results for: E:\Master Courses\2nd year\Master Thesis\Code\STTM-master\results\Biomedi_SATM.theta
+	Purity: 0.3807075277663513
+	NMI: 0.2676703324824904
+
+---
+Mean purity: 0.3807075277663513, standard deviation: 0.0
+Mean NMI: 0.2676703324824904, standard deviation: 0.0
