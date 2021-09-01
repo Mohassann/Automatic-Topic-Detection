@@ -1,0 +1,7 @@
+Golden-labels in: dataset/StackOverflow_label.txt
+
+Results for: C:\Users\Asus\Desktop\STTM-master\results\SOF_GPU-PDMM.theta
+	Accuracy: 83.98244651673066
+
+---
+Mean accuracy: 83.98244651673066, standard deviation: 0.0

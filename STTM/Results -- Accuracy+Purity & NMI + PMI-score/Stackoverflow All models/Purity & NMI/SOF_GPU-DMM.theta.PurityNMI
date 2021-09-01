@@ -1,0 +1,9 @@
+Golden-labels in: dataset/StackOverflow_label.txt
+
+Results for: C:\Users\Asus\Desktop\STTM-master\results\SOF_GPU-DMM.theta
+	Purity: 0.4953458889498385
+	NMI: 0.41982464460158814
+
+---
+Mean purity: 0.4953458889498385, standard deviation: 0.0
+Mean NMI: 0.41982464460158814, standard deviation: 0.0

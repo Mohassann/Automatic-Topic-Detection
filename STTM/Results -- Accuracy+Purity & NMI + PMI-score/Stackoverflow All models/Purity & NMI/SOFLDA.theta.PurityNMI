@@ -1,0 +1,9 @@
+Golden-labels in: dataset/StackOverflow_label.txt
+
+Results for: C:\Users\Asus\Desktop\STTM-master\results\SOFLDA.theta
+	Purity: 0.5728042908514659
+	NMI: 0.42829019429985765
+
+---
+Mean purity: 0.5728042908514659, standard deviation: 0.0
+Mean NMI: 0.42829019429985765, standard deviation: 0.0

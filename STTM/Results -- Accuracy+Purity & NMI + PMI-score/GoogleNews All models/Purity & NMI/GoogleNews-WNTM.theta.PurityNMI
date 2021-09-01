@@ -1,0 +1,9 @@
+Golden-labels in: dataset/GoogleNews_LABEL.txt
+
+Results for: E:\Master Courses\2nd year\Master Thesis\Code\STTM-master\results\GoogleNews-WNTM.theta
+	Purity: 0.8314191573640619
+	NMI: 0.8763036670169877
+
+---
+Mean purity: 0.8314191573640619, standard deviation: 0.0
+Mean NMI: 0.8763036670169877, standard deviation: 0.0

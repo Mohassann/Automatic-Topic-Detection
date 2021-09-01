@@ -1,0 +1,9 @@
+Golden-labels in: dataset/SearchSnippets_label.txt
+
+Results for: C:\Users\Asus\Desktop\STTM-master\results\SearchSnippets-GPU-PDMM.theta
+	Purity: 0.5678202521350143
+	NMI: 0.35036939358422556
+
+---
+Mean purity: 0.568202521350143, standard deviation: 0.0
+Mean NMI: 0.35036939358422556, standard deviation: 0.0

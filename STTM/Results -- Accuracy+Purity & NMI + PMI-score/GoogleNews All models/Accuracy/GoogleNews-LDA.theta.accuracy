@@ -1,0 +1,7 @@
+Golden-labels in: dataset/GoogleNews_LABEL.txt
+
+Results for: C:\Users\ASUS\Desktop\STTM-master\results\GoogleNews-LDA.theta
+	Accuracy: 83.3273316528628
+
+---
+Mean accuracy: 83.3273316528628, standard deviation: 0.0

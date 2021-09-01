@@ -1,0 +1,9 @@
+Golden-labels in: dataset/SearchSnippets_label.txt
+
+Results for: C:\Users\Asus\Desktop\STTM-master\results\SearchSnippets-BTM.theta
+	Purity: 0.7792598617324116
+	NMI: 0.5719064457261026
+
+---
+Mean purity: 0.7792598617324116, standard deviation: 0.0
+Mean NMI: 0.5719064457261026, standard deviation: 0.0

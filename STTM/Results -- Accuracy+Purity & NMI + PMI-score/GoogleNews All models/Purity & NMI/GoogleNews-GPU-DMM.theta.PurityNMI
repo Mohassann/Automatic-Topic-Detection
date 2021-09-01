@@ -1,0 +1,9 @@
+Golden-labels in: dataset/GoogleNews_LABEL.txt
+
+Results for: E:\Master Courses\2nd year\Master Thesis\Code\STTM-master\results\GoogleNews-GPU-DMM.theta
+	Purity: 0.8200907454087144
+	NMI: 0.8519240771921675
+
+---
+Mean purity: 0.8200907454087144, standard deviation: 0.0
+Mean NMI: 0.8519240771921675, standard deviation: 0.0

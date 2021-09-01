@@ -1,0 +1,9 @@
+Golden-labels in: dataset/GoogleNews_LABEL.txt
+
+Results for: C:\Users\ASUS\Desktop\STTM-master\results\GoogleNews-GS-DMM.theta
+	Purity: 0.7523406553835074
+	NMI: 0.849995347090571
+
+---
+Mean purity: 0.7523406553835074, standard deviation: 0.0
+Mean NMI: 0.849995347090571, standard deviation: 0.0

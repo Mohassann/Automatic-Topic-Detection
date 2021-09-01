@@ -1,0 +1,9 @@
+Golden-labels in: dataset/SearchSnippets_label.txt
+
+Results for: C:\Users\Asus\Desktop\STTM-master\results\SearchSnippets-GPU-DMM.theta
+	Purity: 0.7821065473769825
+	NMI: 0.5817073956749592
+
+---
+Mean purity: 0.7821065473769825, standard deviation: 0.0
+Mean NMI: 0.5817073956749592, standard deviation: 0.0
