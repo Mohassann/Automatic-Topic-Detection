@@ -43,7 +43,7 @@ public class STTM
 			
 		 
 //	      BTM
-//	      String []aargs="-model BTM -corpus dataset/GoogleNews.txt -ntopics 152 -alpha 0.328 -beta 0.01 -name GoogleNews-BTM".split(" ");
+//	      String []aargs="-model BTM -corpus dataset/GoogleNews.txt -ntopics 152 -alpha a/K -beta 0.01 -name GoogleNews-BTM".split(" ");
 
 //	      WNTM
 //	      String []aargs="-model WNTM -corpus dataset/GoogleNews.txt -ntopics 152 -alpha 0.1 -beta 0.1 -name GoogleNews-WNTM".split(" ");
@@ -55,7 +55,7 @@ public class STTM
 //	      String []aargs="-model LFDMM -corpus dataset/GoogleNews.txt -vectors dataset/glove.6B.200d.txt -ntopics 152 -alpha 0.1 -beta 0.01 -lambda 0.6 -niters 1000 -name GoogleNews-LF-DMM".split(" ");
 	      
 //	      GPU-DMM
-//	      String []aargs="-model GPUDMM -corpus dataset/GoogleNews.txt -vectors dataset/glove.6B.200d.txt -ntopics 152 -alpha 0.328 -beta 0.01 -name GoogleNews-GPU-DMM".split(" ");
+//	      String []aargs="-model GPUDMM -corpus dataset/GoogleNews.txt -vectors dataset/glove.6B.200d.txt -ntopics 152 -alpha a/K -beta 0.01 -name GoogleNews-GPU-DMM".split(" ");
 //	      String []aargs="-model ClassificationEval -label dataset/GoogleNews_LABEL.txt -dir results -prob GoogleNews-GPU-DMM.theta".split(" ");
 //	      String []aargs="-model ClusteringEval -label dataset/GoogleNews_LABEL.txt -dir results -prob GoogleNews-GPU-DMM.theta".split(" ");
 //	      String []aargs="-model CoherenceEval -label dataset/wiki2.en.text -dir results -topWords GoogleNews-GPU-DMM.topWords".split(" ");
@@ -63,7 +63,7 @@ public class STTM
 	      
 	      
 //	      GPU-PDMM
-//	      String []aargs="-model GPU_PDMM -corpus dataset/GoogleNews.txt -vectors dataset/glove.6B.200d.txt -ntopics 152 -alpha 0.328 -beta 0.01 -lambda 1.5 -maxTd 2 -name GoogleNews-GPU-PDMM".split(" ");
+//	      String []aargs="-model GPU_PDMM -corpus dataset/GoogleNews.txt -vectors dataset/glove.6B.200d.txt -ntopics 152 -alpha a/K -beta 0.01 -lambda 1.5 -maxTd 2 -name GoogleNews-GPU-PDMM".split(" ");
 //		  String []aargs="-model ClassificationEval -label dataset/GoogleNews_LABEL.txt -dir results -prob GoogleNews-GPU-PDMM.theta".split(" ");
 //	      String []aargs="-model ClusteringEval -label dataset/GoogleNews_LABEL.txt -dir results -prob GoogleNews-GPU-PDMM.theta".split(" ");
 //	      String []aargs="-model CoherenceEval -label dataset/wiki2.en.text -dir results -topWords GoogleNews-GPU-PDMM.topWords".split(" ");
@@ -85,7 +85,7 @@ public class STTM
 //			String []aargs="-model DMM -corpus dataset/Biomedical.txt -alpha 0.1 -beta 0.1 -name Biomedi_GS-DMM".split(" ");
 			
 //			BTM
-//			String []aargs="-model BTM -corpus dataset/Biomedical.txt -alpha 2.5 -beta 0.01 -name Biomedi_BTM".split(" ");
+//			String []aargs="-model BTM -corpus dataset/Biomedical.txt -alpha a/K -beta 0.01 -name Biomedi_BTM".split(" ");
 			
 //			WNTM
 //			String []aargs="-model WNTM -corpus dataset/Biomedical.txt -ntopics 100 -alpha 0.1 -beta 0.1 -name Biomedi_WNTM".split(" ");
@@ -100,10 +100,10 @@ public class STTM
 //			String []aargs="-model LFDMM -corpus dataset/Biomedical.txt -vectors dataset/glove.6B.200d.txt -alpha 0.1 -beta 0.01 -lambda 0.6 -niters 1000 -name Biomedi_LF-DMM".split(" ");
 			
 //			GPU-DMM
-//			String []aargs="-model GPUDMM -corpus dataset/Biomedical.txt -vectors dataset/glove.6B.200d.txt -alpha 2.5 -beta 0.01 -name Biomedi_GPU-DMM".split(" ");
+//			String []aargs="-model GPUDMM -corpus dataset/Biomedical.txt -vectors dataset/glove.6B.200d.txt -alpha a/K -beta 0.01 -name Biomedi_GPU-DMM".split(" ");
 			
 //			GPU-PDMM
-//			String []aargs="-model GPU_PDMM -corpus dataset/Biomedical.txt -vectors dataset/glove.6B.200d.txt -alpha 2.5 -beta 0.01 -lambda 1.5 -maxTd 2 -name Biomedi_GPU-PDMM".split(" ");
+//			String []aargs="-model GPU_PDMM -corpus dataset/Biomedical.txt -vectors dataset/glove.6B.200d.txt -alpha a/K -beta 0.01 -lambda 1.5 -maxTd 2 -name Biomedi_GPU-PDMM".split(" ");
 			
 			
 			
