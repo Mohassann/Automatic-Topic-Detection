@@ -37,7 +37,11 @@ using three different metrics, including
 2. Topic Coherence (PMIscore)
 3. Clustering (Purity and NMI) 
  
-we reported the average mean of each of the metrics. 
+we reported the average mean of each of the metrics.
+
+
+**For Computing topic coherence, Wikipedia dump dataset is needed to score word pairs using term co-occurrence in the paper [Automatic Evaluation of Topic Coherence](https://dl.acm.org/doi/10.5555/1857999.1858011). Here, we calculate the pointwise mutual information (PMI) of each word pair, estimated from the entire corpus of over 1M English Wikipedia articles. Using a sliding window of 10-words to identify co-occurrence, we computed the PMI of all a given word pairs**
+
 
 ## 3. We tested the impact of pre-processing on the datasets and the efficiency of each model. 
 To investigate the impact of pre-processing on the performance of the topic modeling, we train the GS-DMM on the StackOverflow datase
