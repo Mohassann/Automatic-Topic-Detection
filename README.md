@@ -21,9 +21,10 @@ using three different metrics, including
 we reported the average mean of each of the metrics. 
 
 ## 3. We tested the impact of pre-processing on the datasets and the efficiency of each model. 
+To investigate the impact of pre-processing on the performance of the topic modeling, we train the GS-DMM on the StackOverflow datase
 
 ## 4. Finally, we investigated the influence of 
-a. number of topics K 
-b. number of iterations
-c. number of pseudo documents for PTM and SATM 
-d. impact of M and λ on GPU-PDMM
+1. Number of topics K 
+2. Number of iterations
+3. Number of pseudo documents for PTM and SATM 
+4. Impact of M and λ on GPU-PDMM
