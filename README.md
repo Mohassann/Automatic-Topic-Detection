@@ -12,7 +12,8 @@ which leads to a data sparsity problem. Because of the sparsity problem, the sta
 
 ### We used each of those models, and each model is trained on five different real-world short text datasets. 
 We used the STTM open-source java Library
-**Short Text Topic Model** [github](https://github.com/qiang2100/STTM)
+
+**Short Text Topic Model** [STTM Library](https://github.com/qiang2100/STTM)
 
 ## 2. Later, we evaluated the performance of each model on each dataset 
 using three different metrics, including 
