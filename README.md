@@ -46,7 +46,8 @@ you can easily convert the Wikipedia dataset from HTML to Text using the above c
 ```python
 python process_wiki.py enwiki-latest-pages-articles.xml.bz2 wiki.en.text
 ```
-
+- python 2.7
+- Gensim 3.8.3 
 
 
 ## 3. We tested the impact of pre-processing on the datasets and the efficiency of each model. 
