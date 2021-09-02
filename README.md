@@ -49,6 +49,16 @@ python process_wiki.py enwiki-latest-pages-articles.xml.bz2 wiki.en.text
 - python 2.7
 - Gensim 3.8.3 
 
+### The output files of Accuracy + Purity & NMI + PMI-scoreare are in Results -- Accuracy+Purity & NMI + PMI-score folder
+- modelX.accuracy
+- modelX.PurityNMI
+- modelX.coherence
+
+
+### The output files of Top Words and Topic Assignmnets are in Results -- Top Words + Topic Assignmnets folder
+- modelX.theta (document-to-topic distributions)
+- modelX.phi (topic-to-word distributions)
+- modelX.topicassignmnets (assigning words in the documents to topics)
 
 ## 3. We tested the impact of pre-processing on the datasets and the efficiency of each model. 
 To investigate the impact of pre-processing on the performance of the topic modeling, we train the GS-DMM on the StackOverflow datase
