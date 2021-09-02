@@ -3,12 +3,26 @@ In the past several years, topic models have seen a rise in their popularity due
 which leads to a data sparsity problem. Because of the sparsity problem, the standard topic models may not perform very well on short text documents. 
 
 ## 1. To solve the sparsity problems in short text data, many short text topic models have been developed, such as a 
-- Gibbs sampling algorithm for Dirichlet Multinomial Mixture (GS-DMM), 
-- Latent Feature Dirichlet Mixture Model (LF-DMM), 
-- Generalized Polya Urn -Dirichlet Multinomial Mixture (GPU-DMM), 
-- Generalized Polya Urn - Poisson-based Dirichlet Multinomial Mixture (GPU-PDMM), 
+
+
+1. DMM based
+  - Gibbs sampling algorithm for Dirichlet Multinomial Mixture (GS-DMM)
+
+
+2. Word Embedding (DMM based)
+- Latent Feature Dirichlet Mixture Model (LF-DMM)
+- Generalized Polya Urn -Dirichlet Multinomial Mixture (GPU-DMM)
+- Generalized Polya Urn - Poisson-based Dirichlet Multinomial Mixture (GPU-PDMM)
+
+3. Global word cooccurrences
 - Biterm Topic Model (BTM), 
-- World Network Topic Model (WNTM), SelfAggregation Topic model (SATM), and Pseudo-document-based Topic Modeling (PTM). 
+- World Network Topic Model (WNTM)
+
+
+4. Self-Aggregation
+- SelfAggregation Topic model (SATM)
+- Pseudo-document-based Topic Modeling (PTM).
+
 
 ### We used each of those models, and each model is trained on five different real-world short text datasets. 
 We used the STTM open-source java Library
