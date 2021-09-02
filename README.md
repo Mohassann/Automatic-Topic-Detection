@@ -38,7 +38,9 @@ using three different metrics, including
 3. Clustering (Purity and NMI) 
  
 we reported the average mean of each of the metrics.
+
 **It is important to note for the evaluation we also need to read a golden label file for each dataset, each line is the class label of one document.**
+**Golden Labels of all the dataset can be found [here](https://github.com/Mohassann/Automatic-Topic-Detection/tree/main/STTM/Datasets/Golden%20Labels)**
 
 **For Computing topic coherence, Wikipedia dump dataset is needed to score word pairs using term co-occurrence in the paper [Automatic Evaluation of Topic Coherence](https://dl.acm.org/doi/10.5555/1857999.1858011). Here, we calculate the pointwise mutual information (PMI) of each word pair, estimated from the entire corpus of over 1M English Wikipedia articles. Using a sliding window of 10-words to identify co-occurrence, we computed the PMI of all a given word pairs. [Wikipedia dataset](https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2) [Pre processing of the Wikipedia dataset](https://github.com/Mohassann/Automatic-Topic-Detection/blob/main/STTM/Wikipedia%20Pre-Processing/process_wiki.py) which was provided by [qiang](https://github.com/qiang2100/STTM/)**
 
@@ -101,5 +103,13 @@ String []aargs="-model CoherenceEval -label dataset/wiki2.en.text -dir results -
 ```java
 String []aargs="-model ClusteringEval -label dataset/Biomedical_label.txt -dir results -prob Biomedi_GS-DMM.theta".split(" ");
 ```
-**Golden Labels of all the dataset can be found [here](https://github.com/Mohassann/Automatic-Topic-Detection/tree/main/STTM/Datasets/Golden%20Labels)**
 
+***
+
+### Impact of pre-processing
+
+StackOverflow dataset filled with symbols and computer terminology, lowercase letters, and uppercase letters are all critical; after pre-processing, most of these symbols and computer terminologies become meaningless or will be removed. We used the StackOverflow dataset without any pre-processing, trained the GS-DMM, and reported the mean Accuracy, Purity, and NMI.
+
+The Stackoverflow dataset without pre-processing can be found [here](https://github.com/Mohassann/Automatic-Topic-Detection/tree/main/STTM/StackOverflow%20without%20pre-processing/Dataset)
+
+The Results can be found [here](https://github.com/Mohassann/Automatic-Topic-Detection/tree/main/STTM/StackOverflow%20without%20pre-processing/Results)
