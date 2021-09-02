@@ -13,6 +13,8 @@ which leads to a data sparsity problem. Because of the sparsity problem, the sta
 - Latent Feature Dirichlet Mixture Model (LF-DMM)
 - Generalized Polya Urn -Dirichlet Multinomial Mixture (GPU-DMM)
 - Generalized Polya Urn - Poisson-based Dirichlet Multinomial Mixture (GPU-PDMM)
+- 
+**"Note" If users train these models based word embeddings, users need to download the Pre-trained word embedding [Global Vectors](https://nlp.stanford.edu/projects/glove/).**
 
 3. #### Global word co-occurrences
 - Biterm Topic Model (BTM), 
