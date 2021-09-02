@@ -10,7 +10,9 @@ which leads to a data sparsity problem. Because of the sparsity problem, the sta
 - Biterm Topic Model (BTM), 
 - World Network Topic Model (WNTM), SelfAggregation Topic model (SATM), and Pseudo-document-based Topic Modeling (PTM). 
 
-We xplained each of those models in detail. Each model is trained on five different real-world short text datasets. 
+### We used each of those models, and each model is trained on five different real-world short text datasets. 
+We used the STTM open-source java Library
+**Short Text Topic Model** [github](https://github.com/qiang2100/STTM)
 
 ## 2. Later, we evaluated the performance of each model on each dataset 
 using three different metrics, including 
