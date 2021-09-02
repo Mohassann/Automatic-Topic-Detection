@@ -76,7 +76,30 @@ We have [STTM.java](https://github.com/Mohassann/Automatic-Topic-Detection/blob/
 
 We used Exclipse; therefore, the command lines should be inside the main class. we added the commands to the STTM.java file, user need to update the name of the model and the evaluation metrics.
 
-1. for training any of the models, use the following line of code.
+1. For training any of the models, use the following line of code.
 ```java
-String []aargs="-model DMM -corpus dataset/Biomedical.txt -alpha 0.1 -beta 0.1 -name Biomedi_GS-DMM".split(" ");
+String []aargs="-model DMM -corpus dataset/Biomedical.txt -alpha 0.1 -beta 0.1 -niters xxx -name Biomedi_GS-DMM".split(" ");
 ```
+
+For training the models that uses the word embedding:
+```java
+String []aargs="-model GPUDMM -corpus dataset/Biomedical.txt -vectors dataset/glove.6B.200d.txt -alpha a/K -beta 0.01 -niters xxx -name Biomedi_GPU-DMM".split(" ");
+```
+
+2. For Evaluating the Models using:
+- Classification (Accuracy):
+```java
+String []aargs="-model ClassificationEval -label dataset/Biomedical_label.txt -dir results -prob Biomedi_GS-DMM.theta".split(" ");
+```
+
+- Topic Coherence (PMI-Score):
+```java
+String []aargs="-model CoherenceEval -label dataset/wiki2.en.text -dir results -topWords Biomedi_GS-DMM.topWords".split(" ");
+```
+
+- Clustering (Purity + NMI)
+```java
+String []aargs="-model ClusteringEval -label dataset/Biomedical_label.txt -dir results -prob Biomedi_GS-DMM.theta".split(" ");
+```
+**Golden Labels of all the dataset can be found [here](https://github.com/Mohassann/Automatic-Topic-Detection/tree/main/STTM/Datasets/Golden%20Labels)**
+
