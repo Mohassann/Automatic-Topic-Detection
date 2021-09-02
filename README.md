@@ -5,21 +5,21 @@ which leads to a data sparsity problem. Because of the sparsity problem, the sta
 ## 1. To solve the sparsity problems in short text data, many short text topic models have been developed, such as a 
 
 
-1. DMM based
+1. #### DMM based
   - Gibbs sampling algorithm for Dirichlet Multinomial Mixture (GS-DMM)
 
 
-2. Word Embedding (DMM based)
+2. #### Word Embedding (DMM based)
 - Latent Feature Dirichlet Mixture Model (LF-DMM)
 - Generalized Polya Urn -Dirichlet Multinomial Mixture (GPU-DMM)
 - Generalized Polya Urn - Poisson-based Dirichlet Multinomial Mixture (GPU-PDMM)
 
-3. Global word cooccurrences
+3. #### Global word co-occurrences
 - Biterm Topic Model (BTM), 
 - World Network Topic Model (WNTM)
 
 
-4. Self-Aggregation
+4. #### Self-Aggregation
 - SelfAggregation Topic model (SATM)
 - Pseudo-document-based Topic Modeling (PTM).
 
