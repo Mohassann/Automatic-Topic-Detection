@@ -40,7 +40,13 @@ using three different metrics, including
 we reported the average mean of each of the metrics.
 
 
-**For Computing topic coherence, Wikipedia dump dataset is needed to score word pairs using term co-occurrence in the paper [Automatic Evaluation of Topic Coherence](https://dl.acm.org/doi/10.5555/1857999.1858011). Here, we calculate the pointwise mutual information (PMI) of each word pair, estimated from the entire corpus of over 1M English Wikipedia articles. Using a sliding window of 10-words to identify co-occurrence, we computed the PMI of all a given word pairs**
+**For Computing topic coherence, Wikipedia dump dataset is needed to score word pairs using term co-occurrence in the paper [Automatic Evaluation of Topic Coherence](https://dl.acm.org/doi/10.5555/1857999.1858011). Here, we calculate the pointwise mutual information (PMI) of each word pair, estimated from the entire corpus of over 1M English Wikipedia articles. Using a sliding window of 10-words to identify co-occurrence, we computed the PMI of all a given word pairs. [Wikipedia dataset](https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2) [Pre processing of the Wikipedia dataset](https://github.com/Mohassann/Automatic-Topic-Detection/blob/main/STTM/Wikipedia%20Pre-Processing/process_wiki.py) which was provided by [qiang](https://github.com/qiang2100/STTM/)**
+
+you can easily convert the Wikipedia dataset from HTML to Text using the above code and executing:
+```python
+python process_wiki.py enwiki-latest-pages-articles.xml.bz2 wiki.en.text
+```
+
 
 
 ## 3. We tested the impact of pre-processing on the datasets and the efficiency of each model. 
