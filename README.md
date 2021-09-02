@@ -72,7 +72,7 @@ To investigate the impact of pre-processing on the performance of the topic mode
 ***
 
 ## How it works?
-We have [STTM.java](https://github.com/Mohassann/Automatic-Topic-Detection/blob/main/STTM/src/STTM.java) source-code file, you can complie the code using source codes by Exclipse or IDEA.
+We have [STTM.java](https://github.com/Mohassann/Automatic-Topic-Detection/blob/main/STTM/src/STTM.java) source-code file, you can complie the code using Exclipse or IDEA.
 
 We used Exclipse; therefore, the command lines should be inside the main class. we added the commands to the STTM.java file, user need to update the name of the model and the evaluation metrics.
 
