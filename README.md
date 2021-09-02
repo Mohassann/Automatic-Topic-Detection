@@ -51,7 +51,7 @@ python process_wiki.py enwiki-latest-pages-articles.xml.bz2 wiki.en.text
 - python 2.7
 - Gensim 3.8.3 
 
-### The output files of Accuracy + Purity & NMI + PMI-scoreare are in Results -- Accuracy+Purity & NMI + PMI-score folder
+### The output files of Accuracy + Purity & NMI + PMI-score are are in Results -- Accuracy+Purity & NMI + PMI-score folder
 - modelX.accuracy
 - modelX.PurityNMI
 - modelX.coherence
@@ -104,6 +104,31 @@ String []aargs="-model CoherenceEval -label dataset/wiki2.en.text -dir results -
 String []aargs="-model ClusteringEval -label dataset/Biomedical_label.txt -dir results -prob Biomedi_GS-DMM.theta".split(" ");
 ```
 
+-model: Specify the topic model GS-DMM or any other model from the above list.
+
+-corpus: Specify the path to the input corpus file.
+
+-vectors: Specify the path to the word2vec file.
+
+-ntopics <int>: Specify the number of topics. The default value is 20.
+
+-alpha <double>: Specify the hyper-parameter alpha. Following [6, 8], the default alpha value is 0.1.
+
+-beta <double>: Specify the hyper-parameter beta. The default beta value is 0.01 which is a common setting in literature.
+
+-niters <int>: Specify the number of Gibbs sampling iterations. The default value is 1000.
+
+-twords <int>: Specify the number of the most probable topical words. The default value is 20.
+
+-name <String>: Specify a name to the topic modeling experiment. The default value is model.
+
+-sstep <int>: Specify a step to save the sampling outputs. The default value is 0 (i.e. only saving the output from the last sample).
+
+-nlongdoc <int>: Specify number of pseudo-long documents for SATM and PTM
+
+#### **More parameters in different methods are shown in "src/utility/CmdArgs"**
+  
+  
 ***
 
 ### Impact of pre-processing
