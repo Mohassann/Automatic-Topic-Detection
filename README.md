@@ -38,7 +38,7 @@ using three different metrics, including
 3. Clustering (Purity and NMI) 
  
 we reported the average mean of each of the metrics.
-
+**It is important to note for the evaluation we also need to read a golden label file for each dataset, each line is the class label of one document.**
 
 **For Computing topic coherence, Wikipedia dump dataset is needed to score word pairs using term co-occurrence in the paper [Automatic Evaluation of Topic Coherence](https://dl.acm.org/doi/10.5555/1857999.1858011). Here, we calculate the pointwise mutual information (PMI) of each word pair, estimated from the entire corpus of over 1M English Wikipedia articles. Using a sliding window of 10-words to identify co-occurrence, we computed the PMI of all a given word pairs. [Wikipedia dataset](https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2) [Pre processing of the Wikipedia dataset](https://github.com/Mohassann/Automatic-Topic-Detection/blob/main/STTM/Wikipedia%20Pre-Processing/process_wiki.py) which was provided by [qiang](https://github.com/qiang2100/STTM/)**
 
@@ -68,3 +68,15 @@ To investigate the impact of pre-processing on the performance of the topic mode
 2. Number of iterations
 3. Number of pseudo documents for PTM and SATM 
 4. Impact of M and λ on GPU-PDMM
+
+***
+
+## How it works?
+We have [STTM.java](https://github.com/Mohassann/Automatic-Topic-Detection/blob/main/STTM/src/STTM.java) source-code file, you can complie the code using source codes by Exclipse or IDEA.
+
+We used Exclipse; therefore, the command lines should be inside the main class. we added the commands to the STTM.java file, user need to update the name of the model and the evaluation metrics.
+
+1. for training any of the models, use the following line of code.
+```java
+String []aargs="-model DMM -corpus dataset/Biomedical.txt -alpha 0.1 -beta 0.1 -name Biomedi_GS-DMM".split(" ");
+```
