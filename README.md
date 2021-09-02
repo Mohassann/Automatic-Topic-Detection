@@ -24,7 +24,7 @@ which leads to a data sparsity problem. Because of the sparsity problem, the sta
 - Pseudo-document-based Topic Modeling (PTM).
 
 
-### We used each of those models, and each model is trained on five different real-world short text datasets. 
+#### We used all these models, and each model is trained on five different real-world short text datasets. 
 We used the STTM open-source java Library
 
 **Short Text Topic Model** [STTM Library](https://github.com/qiang2100/STTM)
